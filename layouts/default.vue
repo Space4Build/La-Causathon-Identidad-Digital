@@ -40,8 +40,8 @@ export default {
   data() {
     return {
       navs: [
-        {href: "/", label: "Crendenciales"},
-        {href: "/profiles", label: "Perfiles"},
+        {href: "/", label: "Perfiles"},
+        {href: "/credentials", label: "Crendenciales"},
       ],
     }
   },

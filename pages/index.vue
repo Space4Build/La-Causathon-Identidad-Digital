@@ -1,8 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Profiles from './profiles.vue'
+</script>
 
 <template>
-  <GeneralSimplePage title="Credenciales" class="flex flex-col">
-  </GeneralSimplePage>
+  <Profiles />
 </template>
 
 <style scoped></style>

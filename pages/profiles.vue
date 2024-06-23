@@ -65,13 +65,13 @@ export default {
     }
   },
   methods: {
-    crear(event) {
+    crear() {
       if (this.acc.trim()) {
         const key = generateMnemonic();
         this.accounts = setLocalStoreAccount(key, this.acc.trim())
         // console.log("accounts", this.accounts)
         this.acc = "";
-        this.$refs.my_modal_2.close()
+        (this.$refs.my_modal_2 as any)?.close()
       }
     }
   },
